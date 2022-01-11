@@ -72,14 +72,7 @@ const Products = () => {
           </ServicesP>
         </ServicesCard>
         </Link>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Admin Dashboard</ServicesH2>
-          <ServicesP>
-            Aenean in egestas lectus. Pellentesque habitant morbi tristique
-            senectus et netus et malesuada fames ac turpis egestas.s
-          </ServicesP>
-        </ServicesCard>
+       
       </ServicesWrapper>
     </ServicesContainer>
   );
