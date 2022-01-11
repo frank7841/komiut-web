@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import AboutSection from "../components/aboutSection";
-import InfoSection from "../components/infoSection";
 import { Navbar } from "./../components/navbar";
 import { Sidebar } from "./../components/sidebar";
 
