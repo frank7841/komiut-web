@@ -36,10 +36,10 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 col-sm-6">
             <FooterH2>Follow Us</FooterH2>
-            <FooterLink href="#"><AiFillFacebook size={28}/></FooterLink>
-            <FooterLink href="#"><AiFillYoutube size={28}/></FooterLink>
-            <FooterLink href="#"><AiFillTwitterSquare size={28}/></FooterLink>
-            <FooterLink href="#"><AiFillLinkedin size={28}/></FooterLink>
+            <FooterLink href="#"><AiFillFacebook size={28}/> &nbsp;&nbsp; Facebook</FooterLink>
+            <FooterLink href="#"><AiFillYoutube size={28}/>&nbsp;&nbsp; Youtube</FooterLink>
+            <FooterLink href="#"><AiFillTwitterSquare size={28}/>&nbsp;&nbsp; Twitter</FooterLink>
+            <FooterLink href="#"><AiFillLinkedin size={28}/>&nbsp;&nbsp; Linkedin</FooterLink>
           </div>
         </div>
         <div className="row">
