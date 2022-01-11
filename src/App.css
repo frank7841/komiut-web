@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.logo-text {
+  font: "Josefin Sans";
+  font-size: 18px!important;
+
+}
+.readmore{
+  
+  padding:0.8em;
+  background-color:black;
+  color: white;
+  border-radius: 4px                             ;
+}
+.link-p{
+  text-decoration: none;
+  color: black;
+}
+
+    .font-yellow{
+        color:#B05FFD!important;
+    }
+    
+
+.center-align {
+  text-align: center;
+}
+
+.black-bg {
+  background: black;
+
+}
+
+.white-bg {
+  background: white;
+
+}
+
+.primary-bg {
+  background: #B05FFD;
+
+}
+
+.h1-hero {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+
+}
+.h1-about{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 22px;
+  }
+
+}
+.hero-text {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.img-wrap {
+  height: 100%;
+  max-width: 700px;
+  margin: auto;
+
+}
+
+.fit-img {
+  width: 100%;
+
+}
+
+.expand-row {
+  width: 100%;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.pl {
+  padding-left: 20px;
+}
+
+.pr {
+  padding-right: 20px;
+}
