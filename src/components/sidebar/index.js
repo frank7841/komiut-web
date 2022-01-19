@@ -12,7 +12,7 @@ export const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="/about-us" onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
+                    <SidebarLink to="/discover" onClick={toggle}>
                         Discover
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>

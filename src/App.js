@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages";
 import SigninPage from "./pages/signin";
 import {About} from "./pages/about";
+import {Discover} from "./pages/discover";
 import {Conductor} from "./pages/conductor/"
 import {Queueing} from "./pages/queueing/"
 import {Percel} from "./pages/percel/"
@@ -16,11 +17,12 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/signin" component={SigninPage} exact />
         <Route path="/about-us" component={About} exact />
+        <Route path ="/discover" component={Discover}/>
         <Route path="/conductor" component={Conductor} exact />
         <Route path="/queueing" component={Queueing} exact />
         <Route path="/percel" component={Percel} exact />
         <Route path="/booking" component={Booking} exact />
-        <Route path="/pasenger" component={Pasenger} exact />
+        <Route path="/pasenger" component={Passenger} exact />
       </Switch>
     </Router>
   );

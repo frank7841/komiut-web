@@ -30,7 +30,7 @@ const Products = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>Auto Queueing App</ServicesH2>
           <ServicesP>
-          Our Application allows stage managers to automatically manage matatus in a queue..  <br/><br/>
+          The auto Queuing app allows stage managers to automatically manage matatus in a queue..  <br/><br/>
           <span className="readmore" >Read more
           </span>
           </ServicesP>
@@ -39,9 +39,9 @@ const Products = () => {
         <Link to="percel" className="link-p">
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Percel App</ServicesH2>
+          <ServicesH2>Parcel App</ServicesH2>
           <ServicesP>
-          Our Application allows saccos to send trackable percel to their clients without much hustle  <br/><br/>
+          The Parcel's app allows saccos to send trackable percel to their clients without much hustle  <br/><br/>
           <span className="readmore" >Read more
           </span>
           </ServicesP>
@@ -64,7 +64,7 @@ const Products = () => {
         <Link to ="passenger" className="link-p">
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Passanger App</ServicesH2>
+          <ServicesH2>Passenger App</ServicesH2>
           <ServicesP>
           Get online to capture more customers. passengers book and pay online,..   <br/><br/>
           <span className="readmore" >Read more
